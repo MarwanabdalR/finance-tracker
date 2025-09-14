@@ -1,0 +1,84 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f0f4f8;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.gain {
+    color: #10B981;
+    /* Green-500 */
+    font-weight: 600;
+}
+
+.loss {
+    color: #EF4444;
+    /* Red-500 */
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #3b82f6;
+    /* Blue-500 */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    /* Blue-600 */
+}
+
+.btn-secondary {
+    background-color: #6b7280;
+    /* Gray-500 */
+}
+
+.btn-secondary:hover {
+    background-color: #4b5563;
+    /* Gray-600 */
+}
+
+.btn-danger {
+    background-color: #ef4444;
+    /* Red-500 */
+}
+
+.btn-danger:hover {
+    background-color: #dc2626;
+    /* Red-600 */
+}
+
+input[type="text"],
+input[type="number"] {
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+th {
+    background-color: #f9fafb;
+    /* Gray-50 */
+}
